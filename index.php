@@ -4,6 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Best skin and cosmetology clinic in kakinada | Tripura skin and cosmetology Clinic ">
+    <meta name="keywords" content="skin and cosmetic clinic, skin  and cosmetic, skin and cosmetology hospital, skin clinic">
+    <meta name="description" content="Dive into the world of radiant beauty with our skin and cosmetology clinic. Learn jaw-dropping secrets behind effective skin care  you deserve outstanding treatment!">
+
+
+
+
     <title>Tripura</title>
 
     <!-- Css links -->

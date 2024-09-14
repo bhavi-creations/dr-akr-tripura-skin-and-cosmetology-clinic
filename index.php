@@ -56,7 +56,7 @@
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="gallery.php">Gallery</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blogs</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
@@ -83,7 +83,7 @@
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="gallery.php">Gallery</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blogs</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>
@@ -566,6 +566,76 @@
             });
         });
     </script>
+
+
+
+
+<section   >
+    <div class="container ">
+      <div class="section-title text-center">
+        <h1 class="  meetourdoctors mt-5">Our Blogs</h1>
+        <!-- <h2 class="apporach">Blogs & articles </h2> -->
+
+
+
+        <!-- <p class="mb-5  text-center service_text">General and cosmetic dentistry can give you a smile you’re proud to show off. Modern cosmetic dentistry techniques make it easier than ever to achieve a bright, even smile. Visit Srinivasa Dental Clinic in Kakinada. -->
+
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+
+
+
+
+        <?php
+        include './db.connection/db_connection.php';
+        // Fetch latest 3 blogs
+        $sql = "SELECT * FROM blog ORDER BY time DESC LIMIT 3";
+        $result = $conn->query($sql);
+        ?>
+
+        <?php while ($row = $result->fetch_assoc()) : ?>
+          <div class="col px-5 py-2">
+            <div class="card h-100">
+              <video class="custom-video" autoplay muted controls style="width: 100%; height: auto;">
+                <source src="admin/public/uploads/videos/<?php echo $row['video']; ?>"
+                  type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="card-body">
+
+
+                <h5 class="card-title"><?php echo $row['title']; ?></h5>
+
+              </div>
+
+
+              <div class="card-footer">
+                <small class="text-muted">Posted On:
+                  <?php echo date("F j, Y, g:i a", strtotime($row['time'])); ?></small>
+              </div>
+            </div>
+          </div>
+        <?php endwhile; ?>
+
+        <div class="mt-5 d-none d-md-block">
+          <a href="blog.php" style="text-decoration: none;">
+            <p class="view_more_btn mb-5 d-flex flex-row justify-content-start" >View More &nbsp; <svg class="svg_icon_arrow" style="width: 20px;fill: #0d6efd !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></p>
+          </a>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center mt-4">
+          <a href="blog.php" style="text-decoration: none;">
+            <p class="view_more_btn d-md-none"  >View More <svg class="svg_icon_arrow" style="width: 20px;fill: #0d6efd !important;"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></p>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 
 
     <!-- Meet our Doctors -->

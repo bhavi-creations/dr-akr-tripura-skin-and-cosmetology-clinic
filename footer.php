@@ -16,7 +16,7 @@
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="about.php">About Us</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="service.php">Service</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="gallery.php">Gallery</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blog</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="blog.php">Blogs</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link_footer" href="contact.php">Contact</a>
                         </div>
                     </div>

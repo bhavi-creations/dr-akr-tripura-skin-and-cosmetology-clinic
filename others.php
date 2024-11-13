@@ -56,7 +56,7 @@ crossorigin="anonymous"></script>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="gallery.php">Gallery</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blogs</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blogs.php">Blogs</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div class="col-lg-2">
@@ -83,7 +83,7 @@ crossorigin="anonymous"></script>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="about.php">About Us</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="service.php">Service</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="gallery.php">Gallery</a>
-                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blog.php">Blogs</a>
+                            <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="blogs.php">Blogs</a>
                             <a style="color:#011632; font-weight: bold;" class="nav-link nav_link" href="contact.php">Contact</a>
                         </div>
                         <div>

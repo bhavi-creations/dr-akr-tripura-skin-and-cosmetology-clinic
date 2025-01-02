@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /search/
+Disallow: /cart/
+Disallow: /checkout/
+
+Allow: /
+
+Sitemap: https://drakrtripuraskinandcosmetologyclinic.com/sitemap.xml

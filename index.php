@@ -5,8 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Best skin and cosmetology clinic in kakinada | Tripura skin and cosmetology Clinic ">
-    <meta name="keywords" content="skin and cosmetic clinic, skin  and cosmetic, skin and cosmetology hospital, skin clinic">
-    <meta name="description" content="Dive into the world of radiant beauty with our skin and cosmetology clinic. Learn jaw-dropping secrets behind effective skin care  you deserve outstanding treatment!">
+    <meta name="keywords" content="Skin care clinic in Kakinada  
+ Best dermatologist in Kakinada  
+ Cosmetology treatments Kakinada  
+ Acne treatment clinic Kakinada  
+ Skin whitening services Kakinada  
+ Anti-aging solutions Kakinada  
+ Laser hair removal in Kakinada  
+ Top cosmetologist Kakinada  
+ Skin rejuvenation treatments Kakinada  
+ Pigmentation treatment Kakinada">
+    <meta name="description" content="Discover expert skin and cosmetology treatments at Dr. AKR Tripura Skin and Cosmetology Clinic in Kakinada. Book your appointment for radiant skin and personalized care today!">
 
 
 
@@ -31,13 +40,13 @@
 
     <!-- favicon  -->
     <link rel="icon" href="./assets/images/nav_logo.png" type="image/x-icon">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <meta name="google-site-verification" content="jMh9l90i_OV4kg2bCVEiqjYdW73G3ORF-RMjeY9ICLE" />
+    <link rel="canonical" href="https://drakrtripuraskinandcosmetologyclinic.com/" />
 </head>
 
 <body>

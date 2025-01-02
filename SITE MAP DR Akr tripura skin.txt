@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://drakrtripuraskinandcosmetologyclinic.com/</loc>
+    <lastmod>2025-01-02</lastmod>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://drakrtripuraskinandcosmetologyclinic.com/about</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://drakrtripuraskinandcosmetologyclinic.com/services</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- Service Categories -->
+  <url>
+    <loc>https://drakrtripuraskinandcosmetologyclinic.com/services/skin-treatments</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://drakrtripuraskinandcosmetologyclinic.com/services/cosmetology</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://drakrtripuraskinandcosmetologyclinic.com/blog</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.6</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Contact Us -->
+  <url>
+    <loc>https://drakrtripuraskinandcosmetologyclinic.com/contact</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
